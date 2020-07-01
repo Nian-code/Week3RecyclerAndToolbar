@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pets</string>
+    <string name="nombre">Gatito1 </string>
+    <string name="Likes">1</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="favoritos_string">Mis Favortitos</string>
+</resources>
