@@ -53,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
         ArraylistMascotas.add(new Mascotas(R.drawable.gatito3, "Michin", likes));
         ArraylistMascotas.add(new Mascotas(R.drawable.gatito4, "Pelusa", likes));
         ArraylistMascotas.add(new Mascotas(R.drawable.gatito5, "Misifu", likes));
+        ArraylistMascotas.add(new Mascotas(R.drawable.gatito1, "Shasha", likes));
+        ArraylistMascotas.add(new Mascotas(R.drawable.gatito2, "Nugget", likes));
+        ArraylistMascotas.add(new Mascotas(R.drawable.gatito3, "Michin", likes));
+        ArraylistMascotas.add(new Mascotas(R.drawable.gatito4, "Pelusa", likes));
+        ArraylistMascotas.add(new Mascotas(R.drawable.gatito5, "Misifu", likes));
 
     }
 
@@ -71,13 +76,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public ArrayList<Mascotas> getArraylistMascotas() {
-        return ArraylistMascotas;
-    }
-
-    public void setArraylistMascotas(ArrayList<Mascotas> arraylistMascotas) {
-        ArraylistMascotas = arraylistMascotas;
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
